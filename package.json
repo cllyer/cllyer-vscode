@@ -26,8 +26,30 @@
 				"language": "vue-html",
 				"path": "./snippets/vue-html.json"
 			}
+		],
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			}
 		]
 	},
+	"extensionPack": [
+		"ms-ceintl.vscode-language-pack-zh-hans",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"coenraads.bracket-pair-colorizer",
+		"dbaeumer.vscode-eslint",
+		"ecmel.vscode-html-css",
+		"abusaidm.html-snippets",
+		"ritwickdey.liveserver",
+		"christian-kohler.path-intellisense",
+		"octref.vetur",
+		"eamodio.gitlens",
+		"elemefe.vscode-element-helper",
+		"mikey.vscode-fileheader",
+		"vscode-icons-team.vscode-icons"
+	],
 	"scripts": {
 		"test": "node ./test/runTest.js"
 	},
