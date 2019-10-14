@@ -3,6 +3,7 @@
 	"displayName": "cllyer-snippets",
 	"description": "Snippets for Cllyer",
 	"version": "0.0.1",
+	"publisher":"cllyer",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
@@ -14,10 +15,13 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [
+		"snippets": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+		 	}, {
+				"language": "vue",
+				"path": "./snippets/vue.json"
 			}
 		]
 	},

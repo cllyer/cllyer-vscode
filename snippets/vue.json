@@ -1,0 +1,24 @@
+{
+  "vue template": {
+    "prefix": "tpl",
+    "body": [
+      "<template>",
+      "\t<div>$1</div>",
+      "</template>\n",
+      "<script>",
+      "export default {",
+      "\tcomponents: {},",
+      "\tdata () {",
+      "\t\treturn {$2}",
+      "\t},",
+      "\tcomputed: {},",
+      "\tmounted () {},",
+      "\tcreated () {},",
+      "\tmethods: {}",
+      "}",
+      "</script>\n",
+      "<style lang=\"less\" scoped></style>\n"
+    ],
+    "description": "vue template"
+	}
+}
