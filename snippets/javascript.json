@@ -4,6 +4,27 @@
     "body": [
       "console.log($1)"
     ],
-    "description": "Log output to console"
-	}
+    "description": "console.log"
+  },
+  "Print to dir": {
+    "prefix": "csd",
+    "body": [
+      "console.dir($1)"
+    ],
+    "description": "console.dir"
+  },
+  "Array.forEach": {
+    "prefix": "fe",
+    "body": [
+      "${1:array}.forEach((item, index) => {${2}})"
+    ],
+    "description": "Array.forEach"
+  },
+  "Array.map": {
+    "prefix": "mp",
+    "body": [
+      "${1:array}.map((item, index) => {${2}})"
+    ],
+    "description": "Array.map"
+  }
 }
