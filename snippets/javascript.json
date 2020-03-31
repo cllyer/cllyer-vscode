@@ -26,5 +26,23 @@
       "${1:array}.map((item, index) => {${2}})"
     ],
     "description": "Array.map"
+  },
+  "setTimeout": {
+    "prefix": "st",
+    "body": [
+      "setTimeout(() => {",
+      "\t${1}",
+      "}, ${2:1000})"
+    ],
+    "description": "setTimeout"
+  },
+  "setInterval": {
+    "prefix": "si",
+    "body": [
+      "setInterval(() => {",
+      "\t${1}",
+      "}, ${2:1000})"
+    ],
+    "description": "setInterval"
   }
 }
