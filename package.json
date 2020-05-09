@@ -2,7 +2,7 @@
 	"name": "cllyer-vscode",
 	"displayName": "cllyer-vscode",
 	"description": "Extensions & Snippets for Cllyer",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher":"cllyer",
 	"engines": {
 		"vscode": "^1.39.0"
