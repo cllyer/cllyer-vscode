@@ -17,7 +17,7 @@
       "\tmethods: {}",
       "}",
       "</script>\n",
-      "<style lang=\"sass\" scoped></style>\n"
+      "<style lang=\"scss\" scoped></style>\n"
     ],
     "description": "vue template"
   }
